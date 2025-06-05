@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>株式会社ふるーる | Fleur Co., Ltd.</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&family=Dancing+Script:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- 桜の花びらアニメーション背景 -->
+    <div class="sakura-container">
+        <div class="sakura" style="left: 10%; animation-delay: 0s;"></div>
+        <div class="sakura" style="left: 20%; animation-delay: 1s;"></div>
+        <div class="sakura" style="left: 30%; animation-delay: 2s;"></div>
+        <div class="sakura" style="left: 40%; animation-delay: 3s;"></div>
+        <div class="sakura" style="left: 50%; animation-delay: 4s;"></div>
+        <div class="sakura" style="left: 60%; animation-delay: 5s;"></div>
+        <div class="sakura" style="left: 70%; animation-delay: 6s;"></div>
+        <div class="sakura" style="left: 80%; animation-delay: 7s;"></div>
+        <div class="sakura" style="left: 90%; animation-delay: 8s;"></div>
+    </div>
+
+    <!-- 追加の花装飾 -->
+    <div class="flower-decorations">
+        <div class="floating-rose" style="top: 15%; left: 5%;"><i class="fas fa-rose"></i></div>
+        <div class="floating-rose" style="top: 25%; right: 8%;"><i class="fas fa-seedling"></i></div>
+        <div class="floating-rose" style="top: 60%; left: 3%;"><i class="fas fa-leaf"></i></div>
+        <div class="floating-rose" style="top: 80%; right: 5%;"><i class="fas fa-spa"></i></div>
+        <div class="floating-petals">
+            <div class="petal"></div>
+            <div class="petal"></div>
+            <div class="petal"></div>
+            <div class="petal"></div>
+            <div class="petal"></div>
+        </div>
+    </div>
+
+    <!-- ナビゲーション -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <i class="fas fa-flower"></i>
+                <span>Fleur</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home">ホーム</a></li>
+                <li><a href="#about">会社概要</a></li>
+                <li><a href="#business">事業内容</a></li>
+                <li><a href="#contact">お問い合わせ</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- ヒーローセクション -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="company-name">
+                    <span class="fade-in-up">株式会社</span>
+                    <span class="fade-in-up delay-1">ふるーる</span>
+                </h1>
+                <p class="hero-subtitle fade-in-up delay-2">
+                    デジタルマーケティングとコンサルティングで<br>
+                    あなたのビジネスを咲かせます
+                </p>
+                <div class="hero-buttons fade-in-up delay-3">
+                    <a href="#business" class="btn btn-primary">事業内容を見る</a>
+                    <a href="#contact" class="btn btn-secondary">お問い合わせ</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="flower-garden">
+                    <div class="floating-flower main-flower">
+                        <i class="fas fa-flower"></i>
+                    </div>
+                    <div class="flower-circle">
+                        <div class="small-flower" style="--delay: 0s;"><i class="fas fa-rose"></i></div>
+                        <div class="small-flower" style="--delay: 0.5s;"><i class="fas fa-seedling"></i></div>
+                        <div class="small-flower" style="--delay: 1s;"><i class="fas fa-leaf"></i></div>
+                        <div class="small-flower" style="--delay: 1.5s;"><i class="fas fa-spa"></i></div>
+                        <div class="small-flower" style="--delay: 2s;"><i class="fas fa-tree"></i></div>
+                        <div class="small-flower" style="--delay: 2.5s;"><i class="fas fa-flower"></i></div>
+                    </div>
+                    <div class="sparkles">
+                        <div class="sparkle"></div>
+                        <div class="sparkle"></div>
+                        <div class="sparkle"></div>
+                        <div class="sparkle"></div>
+                        <div class="sparkle"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 花のギャラリーセクション -->
+    <section class="flower-gallery">
+        <div class="container">
+            <h2 class="section-title">
+                <i class="fas fa-images"></i>
+                私たちの美しい世界
+            </h2>
+            <div class="gallery-grid">
+                <div class="gallery-item" data-aos="fade-up" data-aos-delay="0">
+                    <div class="flower-svg">
+                        <svg viewBox="0 0 100 100" class="animated-flower">
+                            <circle cx="50" cy="50" r="5" fill="#ff69b4" class="flower-center"/>
+                            <ellipse cx="50" cy="35" rx="8" ry="15" fill="#ffb6c1" class="petal petal-1"/>
+                            <ellipse cx="65" cy="50" rx="15" ry="8" fill="#ffb6c1" class="petal petal-2"/>
+                            <ellipse cx="50" cy="65" rx="8" ry="15" fill="#ffb6c1" class="petal petal-3"/>
+                            <ellipse cx="35" cy="50" rx="15" ry="8" fill="#ffb6c1" class="petal petal-4"/>
+                        </svg>
+                    </div>
+                    <h3>美しさ</h3>
+                    <p>洗練されたデザインで心を込めて</p>
+                </div>
+                <div class="gallery-item" data-aos="fade-up" data-aos-delay="200">
+                    <div class="flower-svg">
+                        <svg viewBox="0 0 100 100" class="animated-rose">
+                            <circle cx="50" cy="50" r="20" fill="#ff1744" class="rose-bloom"/>
+                            <circle cx="50" cy="50" r="15" fill="#ff5722" class="rose-middle"/>
+                            <circle cx="50" cy="50" r="8" fill="#d32f2f" class="rose-center"/>
+                            <path d="M50 70 Q45 85 50 90 Q55 85 50 70" fill="#4caf50" class="stem"/>
+                        </svg>
+                    </div>
+                    <h3>情熱</h3>
+                    <p>お客様への深い想いを込めて</p>
+                </div>
+                <div class="gallery-item" data-aos="fade-up" data-aos-delay="400">
+                    <div class="flower-svg">
+                        <svg viewBox="0 0 100 100" class="animated-tulip">
+                            <ellipse cx="50" cy="40" rx="12" ry="18" fill="#e91e63" class="tulip-bloom"/>
+                            <rect x="48" y="55" width="4" height="25" fill="#4caf50" class="tulip-stem"/>
+                            <ellipse cx="40" cy="65" rx="8" ry="4" fill="#66bb6a" class="leaf leaf-1"/>
+                            <ellipse cx="60" cy="68" rx="8" ry="4" fill="#66bb6a" class="leaf leaf-2"/>
+                        </svg>
+                    </div>
+                    <h3>成長</h3>
+                    <p>共に成長し続ける未来へ</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 会社概要セクション -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">
+                <i class="fas fa-building"></i>
+                会社概要
+            </h2>
+            <div class="about-grid">
+                <div class="about-card slide-in-left">
+                    <h3>会社情報</h3>
+                    <div class="info-grid">
+                        <div class="info-item">
+                            <span class="info-label">会社名</span>
+                            <span class="info-value">株式会社ふるーる</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">設立日</span>
+                            <span class="info-value">2025年5月13日</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">資本金</span>
+                            <span class="info-value">100万円</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">代表取締役</span>
+                            <span class="info-value">千葉 咲妃</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">所在地</span>
+                            <span class="info-value">東京都中央区晴海2-2-42 1213号</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">事業内容</span>
+                            <span class="info-value">小売・SNS運用・コンサル</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-card slide-in-right">
+                    <h3>私たちのミッション</h3>
+                    <p>
+                        株式会社ふるーるは、デジタル時代における企業の成長をサポートし、
+                        美しく効果的なソリューションを提供します。
+                        花のように繊細で美しく、そして力強い成長を目指します。
+                    </p>
+                    <div class="mission-features">
+                        <div class="feature">
+                            <i class="fas fa-heart"></i>
+                            <span>お客様第一</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-lightbulb"></i>
+                            <span>革新的アプローチ</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-handshake"></i>
+                            <span>信頼関係</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 事業内容セクション -->
+    <section id="business" class="business">
+        <div class="container">
+            <h2 class="section-title">
+                <i class="fas fa-briefcase"></i>
+                事業内容
+            </h2>
+            <div class="business-grid">
+                <div class="business-card fade-in-up" data-delay="0">
+                    <div class="card-icon">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <h3>ホームページ事業</h3>
+                    <p>ホームページの企画、デザイン、制作、運営及び保守</p>
+                </div>
+                <div class="business-card fade-in-up" data-delay="100">
+                    <div class="card-icon">
+                        <i class="fab fa-twitter"></i>
+                    </div>
+                    <h3>SNS運用</h3>
+                    <p>SNSアカウントの企画、運営及び管理業務</p>
+                </div>
+                <div class="business-card fade-in-up" data-delay="200">
+                    <div class="card-icon">
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                    <h3>Eコマース</h3>
+                    <p>インターネット等を利用した通信販売業及び電子商取引に関する業務</p>
+                </div>
+                <div class="business-card fade-in-up" data-delay="300">
+                    <div class="card-icon">
+                        <i class="fas fa-tshirt"></i>
+                    </div>
+                    <h3>商品企画・販売</h3>
+                    <p>衣料品、雑貨、化粧品、食品その他各種商品の企画、製造、輸出入、販売及び卸売業</p>
+                </div>
+                <div class="business-card fade-in-up" data-delay="400">
+                    <div class="card-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>デジタルマーケティング</h3>
+                    <p>デジタルマーケティング及び広告運用に関する企画、立案、実施及びコンサルタント業務</p>
+                </div>
+                <div class="business-card fade-in-up" data-delay="500">
+                    <div class="card-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>ソフトウェア開発</h3>
+                    <p>ウェブサイト、モバイルアプリケーション及びソフトウェアの企画、開発、運用及び販売</p>
+                </div>
+                <div class="business-card fade-in-up" data-delay="600">
+                    <div class="card-icon">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <h3>マーケティングリサーチ</h3>
+                    <p>前各号に係るマーケティングリサーチ及びコンサルタント業務</p>
+                </div>
+                <div class="business-card fade-in-up" data-delay="700">
+                    <div class="card-icon">
+                        <i class="fas fa-plus"></i>
+                    </div>
+                    <h3>関連業務</h3>
+                    <p>前各号に附帯又は関連する一切の業務</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- お問い合わせセクション -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">
+                <i class="fas fa-envelope"></i>
+                お問い合わせ
+            </h2>
+            <div class="contact-content">
+                <div class="contact-info slide-in-left">
+                    <h3>お気軽にご相談ください</h3>
+                    <p>
+                        株式会社ふるーるでは、お客様のビジネス成長をサポートするため、
+                        様々なソリューションをご提供しております。
+                    </p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>東京都中央区晴海2-2-42 1213号</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>saki@fleur.company</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <span>03-XXXX-XXXX</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form slide-in-right">
+                    <form>
+                        <div class="form-group">
+                            <input type="text" placeholder="お名前" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="メールアドレス" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" placeholder="件名" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="メッセージ" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">送信する</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- フッター -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <i class="fas fa-flower"></i>
+                    <span>株式会社ふるーる</span>
+                </div>
+                <div class="footer-links">
+                    <a href="#home">ホーム</a>
+                    <a href="#about">会社概要</a>
+                    <a href="#business">事業内容</a>
+                    <a href="#contact">お問い合わせ</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 株式会社ふるーる. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
